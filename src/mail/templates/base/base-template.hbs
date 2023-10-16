@@ -1,0 +1,80 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTDXHTML1.0Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html
+  xmlns="http://www.w3.org/1999/xhtml"
+  xmlns:o="urn:schemas-microsoft-com:office:office"
+  style="padding: 0; margin: 0"
+>
+  <head>
+    <meta charset="UTF-8" />
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <meta name="x-apple-disable-message-reformatting" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta content="telephone=no" name="format-detection" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <style type="text/css">
+      a {
+        -webkit-text-size-adjust: none !important;
+        -ms-text-size-adjust: none !important;
+        mso-line-height-rule: exactly !important;
+        text-decoration: none !important;
+        font-size: 14px !important;
+        font-weight: bold !important;
+      }
+      a.es-footer-link {
+        color: #333333 !important;
+      }
+      @media only screen and (max-width: 600px) {
+        .es-column-fixed_width {
+          width: 125px !important;
+        }
+        .es-content-body_wrap {
+          padding-left: 20px !important;
+          padding-right: 20px !important;
+        }
+      }
+    </style>
+  </head>
+
+  <body
+    style="
+      width: 100%;
+      font-family: 'Poppins', sans-serif;
+      -webkit-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+      padding: 0;
+      margin: 0;
+    "
+  >
+    <div style="background-color: #eeeeee">
+      <table
+        class="es-wrapper"
+        width="100%"
+        cellspacing="0"
+        cellpadding="0"
+        style="
+          mso-table-lspace: 0pt;
+          mso-table-rspace: 0pt;
+          border-collapse: collapse;
+          border-spacing: 0px;
+          padding: 0;
+          margin: 0;
+          width: 100%;
+          height: 100%;
+          background-repeat: repeat;
+          background-position: center top;
+          background-color: #eeeeee;
+        "
+      >
+        <tr style="border-collapse: collapse">
+          <td valign="top" style="padding: 0; margin: 0">
+            {{> header }}
+            {{> body bodyHeader=bodyHeader bodyContent=bodyContent}}
+            {{> footer }}
+          </td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>
