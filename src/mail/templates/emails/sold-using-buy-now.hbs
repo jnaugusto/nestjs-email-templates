@@ -1,9 +1,9 @@
 <table align="center" class="es-content-body">
     <tr>
-        <td class="es-content-body_wrap" class="padding-x-40">
+        <td class="es-content-body_wrap padding-x-40">
             <table>
                 <tr>
-                    <td align="left">
+                    <td>
                         <p> Hi {{firstName}},</p>
                     </td>
                 </tr>
@@ -14,6 +14,12 @@
                         </p>
                     </td>
                 </tr>
+            </table>
+        </td>
+    </tr>
+    <tr>
+        <td class="es-content-body_wrap padding-b-10 padding-x-40">
+            <table>
                 <tr>
                     <td align="center">
                         <table>
@@ -31,39 +37,20 @@
                         </table>
                     </td>
                 </tr>
-            </table>
-        </td>
-    </tr>
-    <tr>
-        <td class="es-content-body_wrap" class="padding-b-10 padding-x-40">
-            <table>
                 <tr>
                     <td align="center">
                         <table>
                             <tr>
-                                <td class="padding-b-10">
+                                <td>
                                     <table>
                                         <tr>
-                                            <td style="padding: 5px 10px 5px 0">
-                                                <p class="es-column-fixed_width">
+                                            <td valign="top" class="es-column-fixed_width padding-y-5 padding-r-10">
+                                                <p>
                                                     <strong>Item</strong>
                                                 </p>
                                             </td>
-                                            <td style="
-                                padding: 5px 0;
-                                margin: 0;
-                                vertical-align: top;
-                                " width="80%" align="left">
-                                                <p style="
-                                    margin: 0;
-                                    -webkit-text-size-adjust: none;
-                                    -ms-text-size-adjust: none;
-                                    mso-line-height-rule: exactly;
-                                    font-family: 'Poppins', sans-serif;
-                                    line-height: 21px;
-                                    color: #4d4b47;
-                                    font-size: 14px;
-                                ">
+                                            <td class="padding-y-5">
+                                                <p>
                                                     <strong>
                                                         <a target="_blank" href="{{item.itemLink}}">{{item.itemName}}</a>
                                                     </strong>
@@ -71,548 +58,158 @@
                                             </td>
                                         </tr>
                                         <tr>
-                                            <td style="
-                                padding: 5px 10px 5px 0;
-                                margin: 0;
-                                vertical-align: top;
-                                " width="20%" align="left">
-                                                <p class="es-column-fixed_width" style="
-                                    width: 150px;
-                                    margin: 0;
-                                    -webkit-text-size-adjust: none;
-                                    -ms-text-size-adjust: none;
-                                    mso-line-height-rule: exactly;
-                                    font-family: 'Poppins', sans-serif;
-                                    line-height: 21px;
-                                    color: #4d4b47;
-                                    font-size: 14px;
-                                ">
-                                                    Reference #
-                                                </p>
+                                            <td valign="top" class="es-column-fixed_width padding-y-5 padding-r-10">
+                                                <p>Reference #</p>
                                             </td>
-                                            <td style="padding: 5px 0; margin: 0" width="80%" align="left">
-                                                <p style="
-                                    margin: 0;
-                                    -webkit-text-size-adjust: none;
-                                    -ms-text-size-adjust: none;
-                                    mso-line-height-rule: exactly;
-                                    font-family: 'Poppins', sans-serif;
-                                    line-height: 21px;
-                                    color: #4d4b47;
-                                    font-size: 14px;
-                                ">
-                                                    {{referenceNumber}}
-                                                </p>
+                                            <td class="padding-y-5">
+                                                <p>{{referenceNumber}}</p>
                                             </td>
                                         </tr>
                                         <tr>
-                                            <td style="
-                                padding: 5px 10px 5px 0;
-                                margin: 0;
-                                vertical-align: top;
-                                " width="20%" align="left">
-                                                <p class="es-column-fixed_width" style="
-                                    width: 150px;
-                                    margin: 0;
-                                    -webkit-text-size-adjust: none;
-                                    -ms-text-size-adjust: none;
-                                    mso-line-height-rule: exactly;
-                                    font-family: 'Poppins', sans-serif;
-                                    line-height: 21px;
-                                    color: #4d4b47;
-                                    font-size: 14px;
-                                ">
-                                                    Price
-                                                </p>
+                                            <td valign="top" class="es-column-fixed_width padding-y-5 padding-r-10">
+                                                <p>Price</p>
                                             </td>
-                                            <td style="padding: 5px 0; margin: 0" width="80%" align="left">
-                                                <p style="
-                                    margin: 0;
-                                    -webkit-text-size-adjust: none;
-                                    -ms-text-size-adjust: none;
-                                    mso-line-height-rule: exactly;
-                                    font-family: 'Poppins', sans-serif;
-                                    line-height: 21px;
-                                    color: #4d4b47;
-                                    font-size: 14px;
-                                ">
-                                                    {{price}}
-                                                </p>
+                                            <td class="padding-y-5">
+                                                <p>{{price}}</p>
                                             </td>
                                         </tr>
                                         <tr>
-                                            <td style="
-                                padding: 5px 10px 5px 0;
-                                margin: 0;
-                                vertical-align: top;
-                                " width="20%" align="left">
-                                                <p class="es-column-fixed_width" style="
-                                    width: 150px;
-                                    margin: 0;
-                                    -webkit-text-size-adjust: none;
-                                    -ms-text-size-adjust: none;
-                                    mso-line-height-rule: exactly;
-                                    font-family: 'Poppins', sans-serif;
-                                    line-height: 21px;
-                                    color: #4d4b47;
-                                    font-size: 14px;
-                                ">
-                                                    Subtotal
-                                                </p>
+                                            <td valign="top" class="es-column-fixed_width padding-y-5 padding-r-10">
+                                                <p>Subtotal</p>
                                             </td>
-                                            <td style="padding: 5px 0; margin: 0" width="80%" align="left">
-                                                <p style="
-                                    margin: 0;
-                                    -webkit-text-size-adjust: none;
-                                    -ms-text-size-adjust: none;
-                                    mso-line-height-rule: exactly;
-                                    font-family: 'Poppins', sans-serif;
-                                    line-height: 21px;
-                                    color: #4d4b47;
-                                    font-size: 14px;
-                                ">
-                                                    {{subTotal}}
-                                                </p>
+                                            <td class="padding-y-5">
+                                                <p>{{subTotal}}</p>
                                             </td>
                                         </tr>
                                         <tr>
-                                            <td style="
-                                padding: 5px 10px 5px 0;
-                                margin: 0;
-                                vertical-align: top;
-                                " width="20%" align="left">
-                                                <p class="es-column-fixed_width" style="
-                                    width: 150px;
-                                    margin: 0;
-                                    -webkit-text-size-adjust: none;
-                                    -ms-text-size-adjust: none;
-                                    mso-line-height-rule: exactly;
-                                    font-family: 'Poppins', sans-serif;
-                                    line-height: 21px;
-                                    color: #4d4b47;
-                                    font-size: 14px;
-                                ">
-                                                    Shipping
-                                                </p>
+                                            <td valign="top" class="es-column-fixed_width padding-y-5 padding-r-10">
+                                                <p>Shipping</p>
                                             </td>
-                                            <td style="padding: 5px 0; margin: 0" width="80%" align="left">
-                                                <p style="
-                                    margin: 0;
-                                    -webkit-text-size-adjust: none;
-                                    -ms-text-size-adjust: none;
-                                    mso-line-height-rule: exactly;
-                                    font-family: 'Poppins', sans-serif;
-                                    line-height: 21px;
-                                    color: #4d4b47;
-                                    font-size: 14px;
-                                ">
-                                                    {{shipping}}
-                                                </p>
+                                            <td class="padding-y-5">
+                                                <p>{{shipping}}</p>
                                             </td>
                                         </tr>
                                         <tr>
-                                            <td style="
-                                padding: 5px 10px 5px 0;
-                                margin: 0;
-                                vertical-align: top;
-                                " width="20%" align="left">
-                                                <p class="es-column-fixed_width" style="
-                                    width: 150px;
-                                    margin: 0;
-                                    -webkit-text-size-adjust: none;
-                                    -ms-text-size-adjust: none;
-                                    mso-line-height-rule: exactly;
-                                    font-family: 'Poppins', sans-serif;
-                                    line-height: 21px;
-                                    color: #4d4b47;
-                                    font-size: 14px;
-                                ">
+                                            <td valign="top" class="es-column-fixed_width padding-y-5 padding-r-10">
+                                                <p>
                                                     <strong>Total to pay</strong>
                                                 </p>
                                             </td>
-                                            <td style="padding: 5px 0; margin: 0" width="80%" align="left">
-                                                <p style="
-                                    margin: 0;
-                                    -webkit-text-size-adjust: none;
-                                    -ms-text-size-adjust: none;
-                                    mso-line-height-rule: exactly;
-                                    font-family: 'Poppins', sans-serif;
-                                    line-height: 21px;
-                                    color: #4d4b47;
-                                    font-size: 14px;
-                                ">
+                                            <td class="padding-y-5">
+                                                <p>
                                                     <strong>{{totalToPay}}</strong>
                                                 </p>
                                             </td>
                                         </tr>
                                         <tr>
-                                            <td style="
-                                padding: 5px 10px 5px 0;
-                                margin: 0;
-                                vertical-align: top;
-                                " width="20%" align="left">
-                                                <p class="es-column-fixed_width" style="
-                                    width: 150px;
-                                    margin: 0;
-                                    -webkit-text-size-adjust: none;
-                                    -ms-text-size-adjust: none;
-                                    mso-line-height-rule: exactly;
-                                    font-family: 'Poppins', sans-serif;
-                                    line-height: 21px;
-                                    color: #4d4b47;
-                                    font-size: 14px;
-                                ">
-                                                    Buyer
-                                                </p>
+                                            <td valign="top" class="es-column-fixed_width padding-y-5 padding-r-10">
+                                                <p>Buyer</p>
                                             </td>
-                                            <td style="
-                                padding: 5px 0px;
-                                margin: 0;
-                                font-size: 14px;
-                                " width="80%" align="left">
-                                                <strong>
+                                            <td class="padding-y-5">
+                                                <p>
                                                     <a target="_blank" href="{{buyer.buyerLink}}">{{buyer.buyerUserName}}</a>
-                                                </strong>
+                                                </p>
                                             </td>
                                         </tr>
                                         <tr>
-                                            <td style="
-                                padding: 5px 10px 5px 0px;
-                                margin: 0;
-                                font-size: 14px;
-                                " width="20%" align="left">
-                                                <br />
+                                            <td valign="top" class="es-column-fixed_width padding-y-5 padding-r-10">
+                                                <p><br/></p>
                                             </td>
-                                            <td style="
-                                padding: 5px 0px;
-                                margin: 0;
-                                font-size: 14px;
-                                " width="80%" align="left">
+                                            <td class="padding-y-5">
                                                 <a target="_blank" href="mailto:{{buyer.buyerEmail}}">{{buyer.buyerEmail}}</a>
                                             </td>
                                         </tr>
                                         <tr>
-                                            <td style="
-                                padding: 5px 10px 5px 0;
-                                margin: 0;
-                                vertical-align: top;
-                                " width="20%" align="left">
-                                                <p class="es-column-fixed_width" style="
-                                    width: 150px;
-                                    margin: 0;
-                                    -webkit-text-size-adjust: none;
-                                    -ms-text-size-adjust: none;
-                                    mso-line-height-rule: exactly;
-                                    font-family: 'Poppins', sans-serif;
-                                    line-height: 21px;
-                                    color: #4d4b47;
-                                    font-size: 14px;
-                                ">
-                                                    Success fee
-                                                </p>
+                                            <td valign="top" class="es-column-fixed_width padding-y-5 padding-r-10">
+                                                <p>Success fee</p>
                                             </td>
-                                            <td style="padding: 5px 0; margin: 0" width="80%" align="left">
-                                                <p style="
-                                    margin: 0;
-                                    -webkit-text-size-adjust: none;
-                                    -ms-text-size-adjust: none;
-                                    mso-line-height-rule: exactly;
-                                    font-family: 'Poppins', sans-serif;
-                                    line-height: 21px;
-                                    color: #4d4b47;
-                                    font-size: 14px;
-                                ">
-                                                    {{successFee}}
-                                                </p>
+                                            <td class="padding-y-5">
+                                                <p>{{successFee}}</p>
                                             </td>
                                         </tr>
                                     </table>
                                 </td>
                             </tr>
                             <tr>
-                                <td align="center" style="
-                            padding: 0;
-                            margin: 0;
-                            padding-top: 20px;
-                            padding-bottom: 20px;
-                            font-size: 0;
-                        ">
-                                    <table border="0" width="100%" height="100%" cellpadding="0"
-                                        cellspacing="0" style="
-                            mso-table-lspace: 0pt;
-                            mso-table-rspace: 0pt;
-                            border-collapse: collapse;
-                            border-spacing: 0px;
-                            ">
+                                <td align="center">
+                                    <table>
                                         <tr>
-                                            <td style="
-                                padding: 0;
-                                margin: 0;
-                                border-bottom: 1px solid #cccccc;
-                                background: unset;
-                                height: 1px;
-                                width: 100%;
-                                margin: 0px;
-                                "></td>
+                                            <td class="es-divider padding-t-20"></td>
                                         </tr>
                                     </table>
                                 </td>
                             </tr>
                             <tr>
-                                <td align="left" style="
-                            padding: 0;
-                            margin: 0;
-                            padding-top: 10px;
-                            padding-bottom: 10px;
-                        ">
-                                    <table style="
-                            mso-table-lspace: 0pt;
-                            mso-table-rspace: 0pt;
-                            border-collapse: collapse;
-                            border-spacing: 0px;
-                            " cellspacing="1" cellpadding="1" border="0" align="left">
+                                <td class="padding-t-20 padding-b-10">
+                                    <table>
                                         <tr>
-                                            <td colspan="2" width="100%">
-                                                <h4 style="
-                                    margin: 0;
-                                    line-height: 19px;
-                                    mso-line-height-rule: exactly;
-                                    font-family: 'Poppins', sans-serif;
-                                    font-size: 17px;
-                                    color: #4d4b47;
-                                ">
-                                                    Shipping details
-                                                </h4>
+                                            <td Shipping="2" width="100%">
+                                                <h4>Shipping details</h4>
                                             </td>
                                         </tr>
                                     </table>
                                 </td>
                             </tr>
                             <tr>
-                                <td align="left" style="
-                            padding: 0;
-                            margin: 0;
-                            padding-bottom: 10px;
-                        ">
-                                    <table style="
-                            mso-table-lspace: 0pt;
-                            mso-table-rspace: 0pt;
-                            border-collapse: collapse;
-                            border-spacing: 0px;
-                            " cellspacing="1" cellpadding="1" border="0" align="left">
+                                <td class="padding-b-10">
+                                    <table>
                                         <tr>
-                                            <td style="
-                                padding: 5px 10px 5px 0;
-                                margin: 0;
-                                vertical-align: top;
-                                " width="20%" align="left">
-                                                <p style="
-                                    vertical-align: top;
-                                    margin: 0;
-                                    -webkit-text-size-adjust: none;
-                                    -ms-text-size-adjust: none;
-                                    mso-line-height-rule: exactly;
-                                    font-family: 'Poppins', sans-serif;
-                                    line-height: 21px;
-                                    color: #4d4b47;
-                                    font-size: 14px;
-                                ">
+                                            <td valign="top" class="es-column-fixed_width padding-y-5 padding-r-10">
+                                                <p>
                                                     <strong>Shipping method</strong>
                                                 </p>
                                             </td>
-                                            <td style="padding: 5px 0; margin: 0" width="80%" align="left">
-                                                <p style="
-                                    margin: 0;
-                                    -webkit-text-size-adjust: none;
-                                    -ms-text-size-adjust: none;
-                                    mso-line-height-rule: exactly;
-                                    font-family: 'Poppins', sans-serif;
-                                    line-height: 21px;
-                                    color: #4d4b47;
-                                    font-size: 14px;
-                                ">
-                                                    {{shippingDetails.shippingMethod}}
-                                                </p>
+                                            <td class="padding-y-5">
+                                                <p>{{shippingDetails.shippingMethod}}</p>
                                             </td>
                                         </tr>
                                         <tr>
-                                            <td style="
-                                padding: 5px 10px 5px 0;
-                                margin: 0;
-                                vertical-align: top;
-                                " width="20%" align="left">
-                                                <p class="es-column-fixed_width" style="
-                                    width: 150px;
-                                    margin: 0;
-                                    -webkit-text-size-adjust: none;
-                                    -ms-text-size-adjust: none;
-                                    mso-line-height-rule: exactly;
-                                    font-family: 'Poppins', sans-serif;
-                                    line-height: 21px;
-                                    color: #4d4b47;
-                                    font-size: 14px;
-                                ">
+                                            <td valign="top" class="es-column-fixed_width padding-y-5 padding-r-10">
+                                                <p>
                                                     <strong>Delivery address</strong>
                                                 </p>
                                             </td>
-                                            <td style="padding: 5px 0; margin: 0" width="80%" align="left">
-                                                <p style="
-                                    width: 100%;
-                                    margin: 0;
-                                    -webkit-text-size-adjust: none;
-                                    -ms-text-size-adjust: none;
-                                    mso-line-height-rule: exactly;
-                                    font-family: 'Poppins', sans-serif;
-                                    line-height: 21px;
-                                    color: #4d4b47;
-                                    font-size: 14px;
-                                ">
-                                                    {{shippingDetails.deliveryAddress.street}}
-                                                </p>
+                                            <td class="padding-y-5">
+                                                <p>{{shippingDetails.deliveryAddress.street}}</p>
                                             </td>
                                         </tr>
                                         <tr>
-                                            <td style="
-                                padding: 5px 10px 5px 0;
-                                margin: 0;
-                                " width="20%" align="left">
-                                                <p class="es-column-fixed_width" style="
-                                    width: 150px;
-                                    margin: 0;
-                                    -webkit-text-size-adjust: none;
-                                    -ms-text-size-adjust: none;
-                                    mso-line-height-rule: exactly;
-                                    font-family: 'Poppins', sans-serif;
-                                    line-height: 21px;
-                                    color: #4d4b47;
-                                    font-size: 14px;
-                                ">
-                                                    <br />
-                                                </p>
+                                            <td valign="top" class="es-column-fixed_width padding-y-5 padding-r-10">
+                                                <p><br/></p>
                                             </td>
-                                            <td style="padding: 5px 0; margin: 0" width="80%" align="left">
-                                                <p style="
-                                    width: 100%;
-                                    margin: 0;
-                                    -webkit-text-size-adjust: none;
-                                    -ms-text-size-adjust: none;
-                                    mso-line-height-rule: exactly;
-                                    font-family: 'Poppins', sans-serif;
-                                    line-height: 21px;
-                                    color: #4d4b47;
-                                    font-size: 14px;
-                                ">
-                                                    {{shippingDetails.deliveryAddress.subLocality}}
-                                                </p>
+                                            <td class="padding-y-5">
+                                                <p>{{shippingDetails.deliveryAddress.subLocality}}</p>
                                             </td>
                                         </tr>
                                         <tr>
-                                            <td style="
-                                padding: 5px 10px 5px 0;
-                                margin: 0;
-                                " width="20%" align="left">
-                                                <p class="es-column-fixed_width" style="
-                                    width: 150px;
-                                    margin: 0;
-                                    -webkit-text-size-adjust: none;
-                                    -ms-text-size-adjust: none;
-                                    mso-line-height-rule: exactly;
-                                    font-family: 'Poppins', sans-serif;
-                                    line-height: 21px;
-                                    color: #4d4b47;
-                                    font-size: 14px;
-                                ">
-                                                    <br />
-                                                </p>
+                                            <td valign="top" class="es-column-fixed_width padding-y-5 padding-r-10">
+                                                <p><br/></p>
                                             </td>
-                                            <td style="padding: 5px 0; margin: 0" width="80%" align="left">
-                                                <p style="
-                                    width: 100%;
-                                    margin: 0;
-                                    -webkit-text-size-adjust: none;
-                                    -ms-text-size-adjust: none;
-                                    mso-line-height-rule: exactly;
-                                    font-family: 'Poppins', sans-serif;
-                                    line-height: 21px;
-                                    color: #4d4b47;
-                                    font-size: 14px;
-                                ">
+                                            <td class="padding-y-5">
+                                                <p>
                                                     {{shippingDetails.deliveryAddress.locality}} {{shippingDetails.deliveryAddress.postalCode}}
                                                 </p>
                                             </td>
                                         </tr>
                                         <tr>
-                                            <td style="
-                                padding: 5px 10px 5px 0;
-                                margin: 0;
-                                " width="20%" align="left">
-                                                <p class="es-column-fixed_width" style="
-                                    width: 150px;
-                                    margin: 0;
-                                    -webkit-text-size-adjust: none;
-                                    -ms-text-size-adjust: none;
-                                    mso-line-height-rule: exactly;
-                                    font-family: 'Poppins', sans-serif;
-                                    line-height: 21px;
-                                    color: #4d4b47;
-                                    font-size: 14px;
-                                ">
-                                                    <br />
-                                                </p>
+                                            <td valign="top" class="es-column-fixed_width padding-y-5 padding-r-10">
+                                                <p><br/></p>
                                             </td>
-                                            <td style="padding: 5px 0; margin: 0" width="80%" align="left">
-                                                <p style="
-                                    width: 100%;
-                                    margin: 0;
-                                    -webkit-text-size-adjust: none;
-                                    -ms-text-size-adjust: none;
-                                    mso-line-height-rule: exactly;
-                                    font-family: 'Poppins', sans-serif;
-                                    line-height: 21px;
-                                    color: #4d4b47;
-                                    font-size: 14px;
-                                ">
-                                                    {{shippingDetails.deliveryAddress.country}}
-                                                </p>
+                                            <td class="padding-y-5">
+                                                <p>{{shippingDetails.deliveryAddress.country}}</p>
                                             </td>
                                         </tr>
                                         <tr>
                                             <td colspan="2"><br /></td>
                                         </tr>
                                         <tr>
-                                            <td style="
-                                padding: 5px 10px 5px 0;
-                                margin: 0;
-                                vertical-align: top;
-                                " align="left">
-                                                <p class="es-column-fixed_width" style="
-                                    width: 150px;
-                                    margin: 0;
-                                    -webkit-text-size-adjust: none;
-                                    -ms-text-size-adjust: none;
-                                    mso-line-height-rule: exactly;
-                                    font-family: 'Poppins', sans-serif;
-                                    line-height: 21px;
-                                    color: #4d4b47;
-                                    font-size: 14px;
-                                ">
+                                            <td valign="top" class="es-column-fixed_width padding-y-5 padding-r-10">
+                                                <p>
                                                     <strong>Phone number</strong>
                                                 </p>
                                             </td>
-                                            <td style="padding: 5px 0; margin: 0" align="left">
-                                                <p style="
-                                    width: 100%;
-                                    margin: 0;
-                                    -webkit-text-size-adjust: none;
-                                    -ms-text-size-adjust: none;
-                                    mso-line-height-rule: exactly;
-                                    font-family: 'Poppins', sans-serif;
-                                    line-height: 21px;
-                                    color: #4d4b47;
-                                    font-size: 14px;
-                                ">
-                                                    {{shippingDetails.phoneNumber}}
-                                                </p>
+                                            <td class="padding-y-5">
+                                                <p>{{shippingDetails.phoneNumber}}</p>
                                             </td>
                                         </tr>
                                     </table>

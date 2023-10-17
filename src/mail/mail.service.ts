@@ -99,6 +99,7 @@ export class MailService {
         userName: 'ameno3',
         userLink: '#'
       },
+      questionLink: '#',
       dateTimePosted: moment().format('H:mm, ddd D MMM')
     }
     const templatePath = 'emails/listing-question.hbs';
